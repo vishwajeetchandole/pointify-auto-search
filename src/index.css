@@ -42,6 +42,7 @@
     --ring: 240 5.9% 10%;
     --radius: 0.75rem;
   }
+}
 
 body {
   font-family: "DM Sans", sans-serif !important;
