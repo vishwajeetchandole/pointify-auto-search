@@ -10,7 +10,7 @@ export default function App() {
   const handleSearch = (query) => {
     window.open(
       `https://www.bing.com/search?q=${encodeURIComponent(query)}`,
-      "pointify_search"
+      "pointify_auto_search_productivity_tool"
     );
     setSearchCount((prev) => prev + 1);
   };
@@ -23,9 +23,9 @@ export default function App() {
         <div className="h-16 px-10 flex items-center justify-between bg-white/50 border-b border-gray-100/50 backdrop-blur-md">
           <div className="flex items-center gap-4">
              <div className="relative w-10 h-10 flex items-center justify-center">
-                <img src={logo} alt="Pointify Logo" className="w-full h-full object-contain" />
+                <img src={logo} alt="Pointify - Auto Search Productivity Tool Logo" className="w-full h-full object-contain" />
              </div>
-             <h1 className="text-2xl font-bold tracking-tighter text-gray-900">Pointify</h1>
+             <h1 className="text-2xl font-bold tracking-tighter text-gray-900">Pointify - Auto Search Productivity Tool</h1>
           </div>
         </div>
 

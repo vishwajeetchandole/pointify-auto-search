@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="src/assets/pointify-logo.png" height="100" alt="Pointify Logo">
+  <img src="src/assets/pointify-logo.png" height="100" alt="Pointify - Auto Search Productivity Tool Logo">
 </p>
 
-# 🚀 Pointify: Auto Search Productivity Tool
+# 🚀 Pointify - Auto Search Productivity Tool
 
-Pointify is a modern, high-performance SaaS dashboard designed to automate and streamline your daily search rewards quest. Built with efficiency and aesthetics in mind, it provides a premium interface for managing daily search tasks and tracking rewards progress.
+Pointify - Auto Search Productivity Tool is a modern, high-performance SaaS dashboard designed to automate and streamline your daily search rewards quest. Built with efficiency and aesthetics in mind, it provides a premium interface for managing daily search tasks and tracking rewards progress.
 
 ### 🔗 [View Live Demo](https://vishwajeetchandole.github.io/pointify-auto-search)
 
