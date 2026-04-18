@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/pointify-logo.png" height="100" alt="Pointify - Auto Search Productivity Tool Logo"> # 🚀 Pointify - Auto Search Productivity Tool
+  <img src="src/assets/pointify-logo.png" height="100" alt="Pointify - Auto Search Productivity Tool Logo"> <h1># 🚀 Pointify - Auto Search Productivity Tool</h1>
 </p>
 
 
