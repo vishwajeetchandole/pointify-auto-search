@@ -2,7 +2,7 @@
   <img src="src/assets/pointify-logo.png" height="100" alt="Pointify Logo">
 </p>
 
-# 🚀 Pointify Dashboard
+# 🚀 Pointify: Auto Search Productivity Tool
 
 Pointify is a modern, high-performance SaaS dashboard designed to automate and streamline your daily search rewards quest. Built with efficiency and aesthetics in mind, it provides a premium interface for managing daily search tasks and tracking rewards progress.
 
