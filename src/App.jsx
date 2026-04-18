@@ -1,6 +1,7 @@
 import { useState } from "react";
 import GreetingCard from "./components/GreetingCard";
 import SearchList from "./components/SearchList";
+import logo from "./assets/pointify-logo.png";
 import Widgets from "./components/Widgets";
 
 export default function App() {
@@ -22,11 +23,7 @@ export default function App() {
         <div className="h-16 px-10 flex items-center justify-between bg-white/50 border-b border-gray-100/50 backdrop-blur-md">
           <div className="flex items-center gap-4">
              <div className="relative w-10 h-10 flex items-center justify-center">
-                <div className="absolute inset-0 bg-blue-500/10 rounded-full animate-pulse"></div>
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center relative">
-                   <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                </div>
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-blue-500 rounded-full border-2 border-white"></div>
+                <img src={logo} alt="Pointify Logo" className="w-full h-full object-contain" />
              </div>
              <h1 className="text-2xl font-bold tracking-tighter text-gray-900">Pointify</h1>
           </div>

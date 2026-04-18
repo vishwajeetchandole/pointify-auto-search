@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { RefreshCw, Play, Loader2 } from "lucide-react";
 import SearchItem from "./SearchItem";
+import logo from "../assets/pointify-logo.png";
 
 export default function SearchList({ onSearch }) {
   const [searches, setSearches] = useState([]);
@@ -107,7 +108,17 @@ export default function SearchList({ onSearch }) {
         </div>
       </div>
 
-      <div className="p-8 pt-4 overflow-y-auto flex-1 custom-scrollbar">
+      <div className="p-8 pt-4 overflow-y-auto flex-1 custom-scrollbar relative">
+        {isRefreshing ? (
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/80 backdrop-blur-sm z-10 animate-in fade-in duration-500">
+            <div className="relative w-20 h-20 mb-4">
+              <div className="absolute inset-0 bg-blue-500/10 rounded-full animate-ping"></div>
+              <img src={logo} alt="Loading" className="w-full h-full object-contain relative animate-pulse" />
+            </div>
+            <p className="text-gray-500 font-bold animate-pulse text-sm">Generating new quests...</p>
+          </div>
+        ) : null}
+        
         <div className="grid gap-3">
           {searches.map((item, index) => (
             <SearchItem
